@@ -1,12 +1,13 @@
 # paginator 
 
-paginator插件有三种pattern模式：server list detail
+paginator插件有三种pattern模式：**server** **list** **detail**
 
 ### server模式
 
 server指的是分页和页码由后端计算返回, 前端通过传入**页码**和**每页显示条数**来进行获取数据
 
 server的配置项: 
+
     ```
         server: {
                 // 请求报文：页码
@@ -22,9 +23,11 @@ server的配置项:
             list: lsKey.list,
             lastUpdateTime: lsKey.lastUpdateTime,
             hasData: lsKey.hasData
-        },
+        }
     ```
+    
     对应在插件源码中的用途是:
+    
     ```
     //server中的配置项的作用是配置好服务端返回接口的字段名, 使用情景:
     me.options.customAjax.get(me.options.url, me.options.data, null, {
