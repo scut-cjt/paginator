@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="MobileOptimized" content="240" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 不允许拨打电话 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" />
+    <title>分页demo</title>
+    <script src="components/rem.js"></script>
+    <link rel="stylesheet" href="components/themes.css">
+</head>
+
+<body>
+    <div class="loader">
+        <span class="icon-circle"></span>
+        <p class="loader-text-wrapper">
+            <span class="loader-text">加载中</span>
+        </p>
+    </div>
+
+    <!-- 滚动条组件包裹框 -->
+    <div class="wrapper fadeIn animated" style="top:100px;left: 0px;background-color:#fff;height:200px;">
+        <div class="content">
+            <ul id="content"></ul>
+        </div>
+    </div>
+
+    <script type="text/html" id="template">
+        <div class="pre" style="visibility: hidden;">
+            {{each}}
+            <li keyid={{$value.id}}>{{$value.id}}</li>
+            {{/each}}
+        </div>
+    </script>
+
+    <script src="components/jquery.js"></script>
+    <script src="components/ls.js"></script>
+    <script src="components/iscroll-probe.js"></script>
+    <script src="components/template.js"></script>
+    <script src="components/dateformat.js"></script>
+    <script src="components/iscrollPull.js"></script>
+    <script src="components/dialog.js"></script>
+    <script src="components/customAjax.js"></script>
+
+    <script src="../../build/paginator.js"></script>
+    <script src="http://rap.ewaytec.cn/rap.plugin.js?projectId=9"></script>
+<script src="list-ab5b4c09ae324d2d8160.js"></script></body>
+
+</html>

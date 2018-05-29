@@ -1,0 +1,32 @@
+{
+  "name": "paginator",
+  "description": "",
+  "main": "dist/paginator.js",
+  "authors": [
+    "pzhang"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "LICENSE",
+    "package.json",
+    "*.md"
+  ],
+  "dependencies": {
+    "jquery": "http://gitlab.ewaytec.cn/frontend-components-team/jquery.git#^3.2.1",
+    "ls": "http://gitlab.ewaytec.cn/frontend-components-team/ls.git#^1.0.0",
+    "template": "http://gitlab.ewaytec.cn/frontend-components-team/template.git#^1.0.0",
+    "iscroll-pull": "http://gitlab.ewaytec.cn/frontend-components-team/iscroll-pull.git#^1.0.0"
+  },
+  "devDependencies": {
+    "custom-ajax": "http://gitlab.ewaytec.cn/cap-frontend-team/custom-ajax.git#^1.0.0",
+    "themes": "http://gitlab.ewaytec.cn/cap-frontend-team/themes.git#^1.0.0",
+    "rem": "http://gitlab.ewaytec.cn/frontend-components-team/rem.git#^1.0.0"
+  }
+}

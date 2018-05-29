@@ -1,0 +1,22 @@
+* {
+    touch-action: none;
+}
+
+#content.flex-wrapper {
+    display: flex;
+}
+
+#content.flex-wrapper .item-img .img-holder {
+    height: auto;
+}
+
+#content.flex-wrapper .item-img .img-holder img {
+    height: auto;
+    min-height: auto;
+}
+
+
+.even-wrapper,
+.odd-wrapper {
+    flex: 1;
+}

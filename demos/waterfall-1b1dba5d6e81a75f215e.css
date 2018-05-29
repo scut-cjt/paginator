@@ -1,0 +1,31 @@
+* {
+    -ms-touch-action: none;
+        touch-action: none;
+}
+
+#content.flex-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#content.flex-wrapper .item-img .img-holder {
+    height: auto;
+}
+
+#content.flex-wrapper .item-img .img-holder img {
+    height: auto;
+    min-height: auto;
+}
+
+
+.even-wrapper,
+.odd-wrapper {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "paginator",
+  "version": "1.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "fis build-pure"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitsrv01.ewaytec.cn/frontend-components-team/paginator.git"
+  },
+  "author": "张鹏",
+  "license": "MIT"
+}
